@@ -298,6 +298,8 @@ input[type="checkbox"]{
   display: flex;
   max-height: 30rem;
   min-height: 20rem;
+  filter: drop-shadow(0.25rem 0.25rem 0.5rem #0000);
+  box-shadow: .25rem .25rem 1rem rgb(24,24,24);
 }
 
 .examplebox p {
@@ -349,6 +351,8 @@ input[type="checkbox"]{
   display: flex;
   max-height: 30rem;
   min-height: 20rem;
+  filter: drop-shadow(0.25rem 0.25rem 0.5rem #0000);
+  box-shadow: 1rem 1rem 1rem #000;
 }
 
 .examplebox2 p {
