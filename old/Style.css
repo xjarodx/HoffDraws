@@ -1,0 +1,50 @@
+/* font-family: 'Advent Pro', sans-serif;
+
+font-family: 'Open Sans', sans-serif; */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+	height: -webkit-fill-available;
+  }
+
+body {
+    background-color: rgb(18,18,18);
+    min-height: -webkit-fill-available;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: teal;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .navmenu {    
+} */
+
+.navmenu h1{
+    color: whitesmoke;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.landing {
+    background-color: thistle;
+}
+
+.main {
+    background-color: tomato;
+}
+
+.bottom {
+    background-color: turquoise;
+}
